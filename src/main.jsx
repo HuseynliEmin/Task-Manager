@@ -4,11 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App.jsx'
 import { BrowserRouter } from "react-router-dom"
 import { UserProvider } from './context/UserContext.jsx';
+import { TaskProvider } from './context/TaskContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <UserProvider>
-      <App />
+      <TaskProvider>
+
+        <App />
+
+      </TaskProvider>
     </UserProvider>
   </BrowserRouter>
 

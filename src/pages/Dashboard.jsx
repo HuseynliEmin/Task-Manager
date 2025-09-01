@@ -1,8 +1,11 @@
 import React from 'react'
+import TaskCard from '../components/TaskCard'
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+      <TaskCard/>
+    </div>
   )
 }
 

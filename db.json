@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Learn React Hooks",
+      "description": "Study useState, useEffect, and useContext",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Practice React Router",
+      "description": "Learn routing and navigation in a React app",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Forms with Formik + Yup",
+      "description": "Learn form validation and submission",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "title": "React Context API",
+      "description": "Manage global state using Provider and Consumer",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "title": "React Component Optimization",
+      "description": "Use Memo, useMemo, and useCallback",
+      "completed": false
+    },
+    {
+      "id": "6",
+      "title": "State Management in React",
+      "description": "Learn Redux or Zustand for state management",
+      "completed": false
+    },
+    {
+      "id": "7",
+      "title": "React Lifecycle Methods",
+      "description": "Understand class component lifecycle methods",
+      "completed": false
+    },
+    {
+      "id": "8",
+      "title": "React Performance Tuning",
+      "description": "Apply lazy loading and code splitting",
+      "completed": false
+    },
+    {
+      "id": "9",
+      "title": "React Testing",
+      "description": "Write tests with Jest and React Testing Library",
+      "completed": false
+    },
+    {
+      "id": "10",
+      "title": "React Error Boundaries",
+      "description": "Handle errors at the component level",
+      "completed": false
+    },
+    {
+      "id": "11",
+      "title": "React Portals",
+      "description": "Use portals for modals and overlays",
+      "completed": false
+    },
+    {
+      "id": "12",
+      "title": "React Suspense & Lazy",
+      "description": "Implement code splitting and lazy loading",
+      "completed": false
+    },
+    {
+      "id": "13",
+      "title": "React Custom Hooks",
+      "description": "Write reusable logic with custom hooks",
+      "completed": false
+    },
+    {
+      "id": "14",
+      "title": "React PropTypes",
+      "description": "Validate component props using PropTypes",
+      "completed": false
+    },
+    {
+      "id": "15",
+      "title": "React DevTools",
+      "description": "Use DevTools to debug React components",
+      "completed": false
+    }
+  ]
+}
