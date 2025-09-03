@@ -1,5 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import axios from "axios"
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const TaskContext = createContext()
 
@@ -46,11 +48,19 @@ export const TaskProvider = ({ children }) => {
         }
     }
 
+    const postTask = async (t) => {
+        try {
+            const response = await axios.post("http://localhost:3000/tasks", t)
+            toast.success("Task added successfully!")
+        } catch (error) {
+            toast.error("Failed to add task!");
+        }
 
+    }
 
 
     return (
-        <TaskContext.Provider value={{ task, setTask, editTask, deleteTask }}>
+        <TaskContext.Provider value={{ task, setTask, editTask, deleteTask, postTask }}>
             {children}
         </TaskContext.Provider>
     )

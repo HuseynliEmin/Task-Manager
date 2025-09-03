@@ -30,6 +30,12 @@
       "description": "Use Memo, useMemo, and useCallback",
       "completed": false
     },
+      {
+      "id": "9re",
+      "title": "React Testing",
+      "description": "Write tests with Jest and React Testing Library",
+      "completed": false
+    },
     {
       "id": "6",
       "title": "State Management in React",
@@ -78,6 +84,12 @@
       "description": "Write reusable logic with custom hooks",
       "completed": false
     },
+     {
+      "id": "1fg7",
+      "title": "Async/Await in JS",
+      "description": "Practice handling asynchronous operations using async/await",
+      "completed": false
+    },
     {
       "id": "14",
       "title": "React PropTypes",
@@ -85,9 +97,81 @@
       "completed": false
     },
     {
+      "id": "113",
+      "title": "React Portals",
+      "description": "Use portals for modals and overlays",
+      "completed": false
+    },
+    {
       "id": "15",
       "title": "React DevTools",
       "description": "Use DevTools to debug React components",
+      "completed": false
+    },
+    {
+      "id": "16",
+      "title": "Learn JavaScript ES6",
+      "description": "Understand let/const, arrow functions, and template literals",
+      "completed": false
+    },
+    {
+      "id": "14a",
+      "title": "Array Methods in JS",
+      "description": "Practice map, filter, reduce, forEach and find methods",
+      "completed": false
+    },
+    {
+      "id": "17",
+      "title": "Async/Await in JS",
+      "description": "Practice handling asynchronous operations using async/await",
+      "completed": false
+    },
+    {
+      "id": "18S",
+      "title": "JavaScript Closures",
+      "description": "Learn closures and their use cases",
+      "completed": false
+    },
+    {
+      "id": "19A",
+      "title": "JavaScript Event Loop",
+      "description": "Understand the call stack, task queue, and event loop",
+      "completed": false
+    },
+    {
+      "id": "18D",
+      "title": "JavaScript Closures",
+      "description": "Learn closures and their use cases",
+      "completed": false
+    },
+    {
+      "id": "19C",
+      "title": "JavaScript Event Loop",
+      "description": "Understand the call stack, task queue, and event loop",
+      "completed": false
+    },
+    {
+      "id": "1a",
+      "title": "Array Methods in JS",
+      "description": "Practice map, filter, reduce, forEach and find methods",
+      "completed": false
+    },
+    {
+      "id": "1b",
+      "title": "DOM Manipulation",
+      "description": "Learn selecting elements, event listeners, and modifying DOM",
+      "completed": false
+    },
+    {
+      "id": "1c",
+      "title": "Fetch API",
+      "description": "Use fetch to get data from an API and handle promises",
+      "completed": false
+    },
+    {
+      "id": "1d",
+      "title": "JavaScript Modules",
+      "description": "Practice export and import of functions and variables",
       "completed": false
     }
   ]

@@ -6,6 +6,7 @@ import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import './App.css'
 import TaskForm from './components/TaskForm';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -20,6 +21,14 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/task-form" element={<TaskForm />} />
       </Routes>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}   // 3 saniyəyə bağlanır
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        pauseOnHover
+      />
     </div>
 
   )
