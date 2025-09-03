@@ -9,6 +9,8 @@ const Register = () => {
   const { setUser } = useContext(UserContext)
   const navigate = useNavigate()
 
+  //registration form
+  
   const handleSubmit = (values) => {
     const users = JSON.parse(localStorage.getItem("users")) || [];
 

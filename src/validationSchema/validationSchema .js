@@ -1,5 +1,6 @@
 import * as Yup from "yup";
 
+// login schema
 export const loginValidationSchema = Yup.object({
     email: Yup.string()
         .email("Email is invalid.")
@@ -9,7 +10,7 @@ export const loginValidationSchema = Yup.object({
         .required("Password is required"),
 });
 
-
+//register schema
 export const registerValidationSchema = Yup.object({
   sureName: Yup.string()
     .min(2, "First name must be at least 2 characters")

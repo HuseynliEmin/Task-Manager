@@ -3,11 +3,12 @@ import axios from "axios"
 
 export const TaskContext = createContext()
 
-const API_URL = "http://localhost:5000/tasks"
+const API_URL = "http://localhost:3000/tasks"
 
 export const TaskProvider = ({ children }) => {
     const [task, setTask] = useState(null);
 
+    //receiving task information
     useEffect(() => {
         const getTasks = async () => {
             try {
@@ -21,6 +22,8 @@ export const TaskProvider = ({ children }) => {
         getTasks();
     }, []);
 
+    //task edit function
+
     const editTask = async (id, uptadeTask) => {
         try {
             const response = await axios.put(`${API_URL}/${id}`, uptadeTask)
@@ -32,6 +35,7 @@ export const TaskProvider = ({ children }) => {
 
     }
 
+    //task delete function
     const deleteTask = async (id) => {
         try {
             await axios.delete(`${API_URL}/${id}`)
@@ -46,7 +50,7 @@ export const TaskProvider = ({ children }) => {
 
 
     return (
-        <TaskContext.Provider value={{ task, setTask, editTask,deleteTask }}>
+        <TaskContext.Provider value={{ task, setTask, editTask, deleteTask }}>
             {children}
         </TaskContext.Provider>
     )

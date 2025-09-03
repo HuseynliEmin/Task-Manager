@@ -10,6 +10,7 @@ const Login = () => {
 
 
   const handleSubmit = (values) => {
+    //Check the user and, if available, go to the main page.
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const foundUser = users.find(
       (u) => u.email === values.email && u.password === values.password
@@ -19,6 +20,7 @@ const Login = () => {
       alert("Email or password is incorrect!");
       return;
     }
+    
     setUser(foundUser);
     localStorage.setItem("user", JSON.stringify(foundUser));
     navigate("/");
